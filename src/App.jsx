@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+// v1.1
 
 const COLORS = {
   bg: "#0a0a0f",
