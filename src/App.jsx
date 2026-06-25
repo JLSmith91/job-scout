@@ -118,7 +118,7 @@ Return only the JSON array. No extra text.`;
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "x-api-key": "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",
+          "x-api-key": import.meta.env.VITE_ANTHROPIC_API_KEY,
           "anthropic-version": "2023-06-01",
           "anthropic-dangerous-direct-browser-access": "true",
         },
