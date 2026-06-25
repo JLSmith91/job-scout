@@ -78,6 +78,7 @@ export default function JobScout() {
   }, [resume]);
 
   async function runSearch() {
+    console.log("KEY:", import.meta.env.VITE_ANTHROPIC_API_KEY);
     setLoading(true);
     setError(null);
     setResults([]);
