@@ -116,7 +116,7 @@ ${resume ? `Here is the candidate's resume context to improve match scoring:\n${
 Return only the JSON array. No extra text.`;
 
     try {
-      const response = await fetch("https://claude-proxy-gb7o.onrender.com/api/messages", {
+      const response = await fetch("https://claude-proxy-kxgv.onrender.com/api/messages", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
