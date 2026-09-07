@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-// v1.1
+// v2 - proxy update
 
 const COLORS = {
   bg: "#0a0a0f",
